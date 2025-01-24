@@ -36,7 +36,7 @@ public class ValidateInput
         }
         else if (mod == 0)
         {
-            output =  roll.matches("[0-1][0-9]") || roll.matches("[0-9]") || roll.matches("20");//not actually a new pattern lol
+            output =  roll.matches("[0-1][0-9]") || roll.matches("[1-9]") || roll.matches("20");//not actually a new pattern lol
         }
         else
         {
